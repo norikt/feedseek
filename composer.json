@@ -1,0 +1,24 @@
+{
+    "name": "norikt/feedseek",
+    "description": "A simple Auto-discovering feed links tool/library for PHP",
+    "minimum-stability": "stable",
+    "type": "library",
+    "keywords": ["rss", "atom", "feeds"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "norikt"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "fabpot/goutte": "v2.0.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-0": { "Feedseek\\": "src/" }
+    }
+
+}
