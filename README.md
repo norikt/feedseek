@@ -2,6 +2,8 @@ Feedseek
 ======
 A simple feed link Auto-discovering tool for PHP
 
+[![Build Status](https://travis-ci.org/norikt/feedseek.svg?branch=master)](https://travis-ci.org/norikt/feedseek)
+
 
 Requirements
 -------
