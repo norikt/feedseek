@@ -10,4 +10,4 @@ before_script:
   - composer install
 
 script:
-  - phpunit --colors --coverage-text test
+  - ./vendor/bin/phpunit --colors --coverage-text --configuration phpunit.xml
